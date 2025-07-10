@@ -1,0 +1,34 @@
+/*slogan*/
+@import "slogan.css";
+/*slogan*/
+/*menu*/
+@import "menu.css";
+/*menu*/
+/*logo*/
+@import "logo.css";
+/*logo*/
+/*reset*/
+@import "reset.css";
+/*reset*/
+/*introduction*/
+@import "introduction.css";
+/*introduction*/
+/*works*/
+@import "works.css";
+/*works*/
+/*education*/
+@import "education.css";
+/*end education*/
+/*lastWorks*/
+@import "lastWorks.css";
+/*end lastWorks*/
+/*Signature*/
+@import "Signature.css";
+/*end Signature*/
+/*contact*/
+@import "contact.css";
+/*end contact*/
+/*footer*/
+@import "footer.css";
+/*end footer*/
+@import "works2.css";

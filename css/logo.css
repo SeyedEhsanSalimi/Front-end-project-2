@@ -1,0 +1,47 @@
+
+section.slogan>section.logo{
+    width: 50%;
+    height: 250px;
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+section.slogan>section.logo>h1{
+    color: whitesmoke;
+    margin: 2px auto;
+    width: 350px;
+
+    font-family: Andalus;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+section.slogan>section.logo>div.under-h1{
+    width: 350px;
+    margin: 5px auto;
+}
+section.slogan>section.logo>div.under-h1>span{
+    margin-left: 8px;
+    color: whitesmoke;
+}
+section.slogan>section.picture{
+    width: 50%;
+    height: 250px;
+
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /*position: relative;*/
+}
+section.slogan>section.logo>section.picture>div.picture{
+/*width: inherit;*/
+    position: relative;
+    left: 200px;
+}
+section.slogan>section.logo>section.picture>div.picture>img{
+    width: 500px;
+
+}

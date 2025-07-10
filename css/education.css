@@ -1,0 +1,184 @@
+@media (min-width: 1200px) {
+    section.education{
+        width:100%;
+        height: 100vh;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    section.education>div{
+        width: 40%;
+        height: 500px;
+        background-color: #57657e;
+        margin: 5px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    section.education>div>h2{
+        color: whitesmoke;
+        margin-bottom: 50px;
+        font-size: 26px;
+        font-family: raleways;
+        text-transform: uppercase;
+    }
+    section.education>div>h5{
+        color: whitesmoke;
+        text-transform: capitalize;
+        margin-top: 50px;
+        font-size: 18px;
+        font-family: Roboto;
+        font-weight: bold;
+    }
+    section.education>div>p{
+        color: #abb2bf;
+        font-size: 16px;
+        font-family: Roboto;
+    }
+
+}
+@media (min-width: 990px) and (max-width: 1200px){
+    section.education{
+        width:100%;
+        height: 100vh;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    section.education>div{
+        width: 40%;
+        background-color: #57657e;
+        margin: 5px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    section.education>div>h2{
+        color: whitesmoke;
+        margin-bottom: 50px;
+        font-size: 26px;
+        font-family: raleways;
+        text-transform: uppercase;
+    }
+    section.education>div>h5{
+        color: whitesmoke;
+        text-transform: capitalize;
+        margin-top: 50px;
+        font-size: 18px;
+        font-family: Roboto;
+        font-weight: bold;
+    }
+    section.education>div>p{
+        color: #abb2bf;
+        font-size: 16px;
+        font-family: Roboto;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px){
+    section.education{
+        width:100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    section.education>div{
+        width: 40%;
+        background-color: #57657e;
+        margin: 5px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    section.education>div>h2{
+        color: whitesmoke;
+        margin-bottom: 50px;
+        font-size: 26px;
+        font-family: raleways;
+        text-transform: uppercase;
+    }
+    section.education>div>h5{
+        color: whitesmoke;
+        text-transform: capitalize;
+        margin-top: 50px;
+        font-size: 18px;
+        font-family: Roboto;
+        font-weight: bold;
+    }
+    section.education>div>p{
+        color: #abb2bf;
+        font-size: 16px;
+        font-family: Roboto;
+    }
+}
+@media (min-width: 540px) and (max-width: 768px){
+    section.education{
+        width:100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    section.education>div{
+        width: 80%;
+        background-color: #57657e;
+        margin: 5px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    section.education>div>h2{
+        color: whitesmoke;
+        margin-bottom: 50px;
+        font-size: 26px;
+        font-family: raleways;
+        text-transform: uppercase;
+    }
+    section.education>div>h5{
+        color: whitesmoke;
+        text-transform: capitalize;
+        margin-top: 50px;
+        font-size: 18px;
+        font-family: Roboto;
+        font-weight: bold;
+    }
+    section.education>div>p{
+        color: #abb2bf;
+        font-size: 16px;
+        font-family: Roboto;
+    }
+}
+@media (max-width: 540px){
+    section.education{
+        width:100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    section.education>div{
+        width: 90%;
+        background-color: #57657e;
+        margin: 5px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    section.education>div>h2{
+        color: whitesmoke;
+        margin-bottom: 50px;
+        font-size: 26px;
+        font-family: raleways;
+        text-transform: uppercase;
+    }
+    section.education>div>h5{
+        color: whitesmoke;
+        text-transform: capitalize;
+        margin-top: 50px;
+        font-size: 18px;
+        font-family: Roboto;
+        font-weight: bold;
+    }
+    section.education>div>p{
+        color: #abb2bf;
+        font-size: 16px;
+        font-family: Roboto;
+    }
+}

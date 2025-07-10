@@ -1,0 +1,56 @@
+section.introduction>section.row>section.col-lg-10>div>h1{
+    font-size: 55px;
+    text-transform: capitalize;
+    font-family:Bahnschrift ;
+    margin: 30px 0;
+    font-weight: bold;
+    color: #2f418a;
+}
+section.introduction>section.row>section.col-lg-10>div>p{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: justify;
+    font-family: Bahnschrift;
+    margin-bottom: 50px;
+    color: #2f418a;
+}
+section.introduction>section.row>section.col-lg-10>div>a.one{
+    background-color: rgba(255, 43, 74, 0.84);
+    color: whitesmoke;
+    width: 180px;
+    height: 40px;
+    text-decoration: none;
+    font-family: Bahnschrift;
+    line-height: 40px;
+    text-align: center;
+    border-radius:20px;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all 300ms linear;
+    margin-bottom: 5px;
+    animation-name: shakeX;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+}
+section.introduction>section.row>section.col-lg-10>div>a:hover{
+    background-color: #ff2b4a;
+}
+section.introduction>section.row>section.col-lg-10>div>a.two{
+    position: absolute;
+    left: 300px;
+    top: 460px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Bahnschrift;
+    font-weight: bold;
+}
+/*@media (max-width: 540px) {*/
+/*    section.introduction>section.row>section.col-lg-10>div>a.two{*/
+/*        position: absolute;*/
+/*        left: 256px;*/
+/*        top: 322px;*/
+/*        text-decoration: none;*/
+/*        text-transform: capitalize;*/
+/*        font-family: Bahnschrift;*/
+/*        font-weight: bold;*/
+/*}}*/

@@ -1,0 +1,493 @@
+@media (min-width: 1200px) {
+    section.lastWorks {
+        width: 100%;
+    }
+    section.lastWorks>a {
+        text-align: center;
+        position: relative;
+        left: 700px;
+        color: crimson;
+       font-family: Bahnschrift;
+        font-weight: bold;
+    }
+
+    section.lastWorks > div.lastWorks {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 40px;
+        box-sizing: border-box;
+    }
+
+    section.lastWorks > div.lastWorks > h1 {
+        font-family: Bahnschrift;
+        color: #2f418a;
+        font-size: 40px;
+        text-transform: capitalize;
+        margin-bottom: 70px;
+        position: relative;
+        right: 500px;
+    }
+
+    section.lastWorks > div.lastWorks > a {
+        position: relative;
+        left: 500px;
+        bottom: 100px;
+    }
+
+    section.lastWorks > div.boxes {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.lastWorks > div.boxes > div {
+        width: 280px;
+        height: 280px;
+        background-color: yellowgreen;
+        margin: 10px;
+
+        position: relative;
+        overflow: hidden;
+    }
+
+    section.lastWorks > div.boxes > div > img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+    }
+
+    section.lastWorks > div.boxes > div:nth-of-type(5) {
+        width: 570px;
+        height: 280px;
+        background-color: #2f418a;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover {
+        width: inherit;
+        height: inherit;
+        background-color: rgba(255, 43, 74, 0.5);
+        z-index: 100;
+        position: absolute;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+
+    section.lastWorks > div.boxes > div:hover > div.cover {
+        left: 0;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a {
+        margin-left: 20px;
+        font-size: 28px;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a > i {
+        color: whitesmoke;
+        transition: all 300ms linear;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a:hover > i {
+        color: lime;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+    section.lastWorks {
+        width: 100%;
+    }
+    section.lastWorks>a {
+        text-align: center;
+        position: relative;
+        left: 450px;
+        color: crimson;
+        font-family: Bahnschrift;
+        font-weight: bold;
+    }
+    section.lastWorks > div.lastWorks {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        padding-top: 40px;
+        box-sizing: border-box;
+    }
+
+    section.lastWorks > div.lastWorks > h1 {
+        font-family: Bahnschrift;
+        color: #2f418a;
+        font-size: 40px;
+        text-transform: capitalize;
+        margin-bottom: 70px;
+
+    }
+    section.lastWorks > div.lastWorks > a {
+        position: relative;
+        left: 00px;
+        bottom: 50px;
+    }
+
+    section.lastWorks > div.boxes {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.lastWorks > div.boxes > div {
+        width: 280px;
+        height: 280px;
+        background-color: yellowgreen;
+        margin: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    section.lastWorks > div.boxes > div > img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+    }
+
+    section.lastWorks > div.boxes > div:nth-of-type(5) {
+        width: 570px;
+        height: 280px;
+        background-color: #2f418a;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover {
+        width: inherit;
+        height: inherit;
+        background-color: rgba(255, 43, 74, 0.5);
+        z-index: 100;
+        position: absolute;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+
+    section.lastWorks > div.boxes > div:hover > div.cover {
+        left: 0;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a {
+        margin-left: 20px;
+        font-size: 28px;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a > i {
+        color: whitesmoke;
+        transition: all 300ms linear;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a:hover > i {
+        color: lime;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    section.lastWorks {
+        width: 100%;
+    }
+    section.lastWorks>a {
+        text-align: center;
+        position: relative;
+        left: 350px;
+        color: crimson;
+        font-family: Bahnschrift;
+        font-weight: bold;
+    }
+    section.lastWorks > div.lastWorks {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        padding-top: 40px;
+        box-sizing: border-box;
+    }
+
+    section.lastWorks > div.lastWorks > h1 {
+        font-family: Bahnschrift;
+        color: #2f418a;
+        font-size: 40px;
+        text-transform: capitalize;
+        margin-bottom: 70px;
+
+    }
+    section.lastWorks > div.lastWorks > a {
+        position: relative;
+        left: 00px;
+        bottom: 50px;
+    }
+
+    section.lastWorks > div.boxes {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.lastWorks > div.boxes > div {
+        width: 280px;
+        height: 280px;
+        background-color: yellowgreen;
+        margin: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    section.lastWorks > div.boxes > div > img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+    }
+
+    section.lastWorks > div.boxes > div:nth-of-type(5) {
+        width: 570px;
+        height: 280px;
+        background-color: #2f418a;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover {
+        width: inherit;
+        height: inherit;
+        background-color: rgba(255, 43, 74, 0.5);
+        z-index: 100;
+        position: absolute;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+
+    section.lastWorks > div.boxes > div:hover > div.cover {
+        left: 0;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a {
+        margin-left: 20px;
+        font-size: 28px;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a > i {
+        color: whitesmoke;
+        transition: all 300ms linear;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a:hover > i {
+        color: lime;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 768px) {
+    section.lastWorks {
+        width: 100%;
+    }
+    section.lastWorks>a {
+        text-align: center;
+        position: relative;
+        left: 250px;
+        color: crimson;
+        font-family: Bahnschrift;
+        font-weight: bold;
+    }
+    section.lastWorks > div.lastWorks {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        padding-top: 40px;
+        box-sizing: border-box;
+    }
+
+    section.lastWorks > div.lastWorks > h1 {
+        font-family: Bahnschrift;
+        color: #2f418a;
+        font-size: 40px;
+        text-transform: capitalize;
+        margin-bottom: 70px;
+
+    }
+    section.lastWorks > div.lastWorks > a {
+        position: relative;
+        left: 00px;
+        bottom: 50px;
+    }
+
+    section.lastWorks > div.boxes {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.lastWorks > div.boxes > div {
+        width: 280px;
+        height: 280px;
+        background-color: yellowgreen;
+        margin: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    section.lastWorks > div.boxes > div > img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+    }
+
+    section.lastWorks > div.boxes > div:nth-of-type(5) {
+        width: 280px;
+        height: 280px;
+        background-color: #2f418a;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover {
+        width: inherit;
+        height: inherit;
+        background-color: rgba(255, 43, 74, 0.5);
+        z-index: 100;
+        position: absolute;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+
+    section.lastWorks > div.boxes > div:hover > div.cover {
+        left: 0;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a {
+        margin-left: 20px;
+        font-size: 28px;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a > i {
+        color: whitesmoke;
+        transition: all 300ms linear;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a:hover > i {
+        color: lime;
+    }
+}
+
+@media (max-width: 540px) {
+    section.lastWorks {
+        width: 100%;
+    }
+    section.lastWorks>a {
+        text-align: center;
+        position: relative;
+        left: 180px;
+        color: crimson;
+        font-family: Bahnschrift;
+        font-weight: bold;
+    }
+    section.lastWorks > div.lastWorks {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        padding-top: 40px;
+        box-sizing: border-box;
+    }
+
+    section.lastWorks > div.lastWorks > h1 {
+        font-family: Bahnschrift;
+        color: #2f418a;
+        font-size: 40px;
+        text-transform: capitalize;
+        margin-bottom: 70px;
+
+    }
+    section.lastWorks > div.lastWorks > a {
+        position: relative;
+        left: 00px;
+        bottom: 50px;
+    }
+    section.lastWorks > div.boxes {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.lastWorks > div.boxes > div {
+        width: 280px;
+        height: 280px;
+        background-color: yellowgreen;
+        margin: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    section.lastWorks > div.boxes > div > img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+    }
+
+    section.lastWorks > div.boxes > div:nth-of-type(5) {
+        width: 280px;
+        height: 280px;
+        background-color: #2f418a;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover {
+        width: inherit;
+        height: inherit;
+        background-color: rgba(255, 43, 74, 0.5);
+        z-index: 100;
+        position: absolute;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+
+    section.lastWorks > div.boxes > div:hover > div.cover {
+        left: 0;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a {
+        margin-left: 20px;
+        font-size: 28px;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a > i {
+        color: whitesmoke;
+        transition: all 300ms linear;
+    }
+
+    section.lastWorks > div.boxes > div > div.cover > a:hover > i {
+        color: lime;
+    }
+}
